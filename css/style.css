@@ -93,14 +93,14 @@ header {
 .img-wrapper {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0.99);
 }
 
 .img-wrapper img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.7;
+    opacity: 0.4;
     animation: zoom 18s;
 }
 
@@ -156,6 +156,11 @@ header {
     cursor: pointer;
     animation: moveBanner 1s 0.9s forwards;
     opacity: 0;
+    transition: all .2s ease-in-out;
+}
+
+.banner button:hover {
+    filter: brightness(1.6);
 }
 
 @keyframes moveBanner {
@@ -234,6 +239,95 @@ header {
     background-color: #a044ff;
 }
 
+section {
+    margin-top: -2rem;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+
+.info h1 {
+    font-family: var(--font-primary);
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+
+
+.info h4 {
+    font-family: var(--font-secundary);
+    color: rgba(255, 255, 255, 0.575);
+    font-size: 1.5rem;
+    text-shadow: .2rem .3rem 2px rgba(0,0,0,.5);
+    margin-top: 1.5rem;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+.topfive {
+    width: 100%;
+    height: 100%;
+}
+
+.topfive h1{
+    font-family: var(--font-primary);
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: rem;
+    text-transform: uppercase;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.grid-img {
+    max-height: 100%;
+    padding: 0 2rem;
+    background-color: black;
+    max-width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 3rem 15rem;
+    
+}
+
+.grid-img img{
+    width: 100%;
+}
+
+.grid-img p {
+    
+    font-family: var(--font-secundary);
+    color: rgba(255, 255, 255, 0.575);
+    font-size: 1.5rem;
+    text-shadow: .2rem .3rem 2px rgba(0,0,0,.5);
+    margin-bottom: 2rem;
+    
+}
+
+.grid-img button {
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    background: #8E2DE2; 
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 2.5rem;
+    transition: all .2s ease-in-out;
+}
+
+.grid-img button:hover {
+    filter: brightness(1.6);
+}
+
 footer {
     width: 100%;
     height: 7rem;
@@ -267,6 +361,46 @@ footer {
     display: flex;
 }
 
+#link-topo {
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    width: 2.8rem;
+    height: 2.8rem;
+    background: #8E2DE2; 
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: .3rem;
+    box-shadow: 0 0.1rem 0.6rem #00000009;
+    transition: all .2s ease-in-out;
+}
+
+#link-topo:hover {
+    filter: brightness(1.6);
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .grid-img {
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 10rem 5rem;
+    }
+    
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .grid-img {
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+
+}
 
 @media only screen and (max-width: 650px) {
    
@@ -280,18 +414,18 @@ footer {
         display: flex;
         justify-content: center;
         flex-direction: column;
-
+        
     }
 
 }
 
 @media only screen and (max-width: 360px) {
-
     #link-topo{
         display: none;
     }
 
-    .social-list {
-        display: none;
+    .social-media ul li{
+        flex-direction: column;
     }
+
 }

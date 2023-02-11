@@ -156,6 +156,11 @@ header {
     cursor: pointer;
     animation: moveBanner 1s 0.9s forwards;
     opacity: 0;
+    transition: all .2s ease-in-out;
+}
+
+.banner button:hover {
+    filter: brightness(1.6);
 }
 
 @keyframes moveBanner {
@@ -291,14 +296,6 @@ section {
     
 }
 
-.grid-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;  
-    
-}
-
 .grid-img img{
     width: 100%;
 }
@@ -323,8 +320,12 @@ section {
     border-radius: 5px;
     border: none;
     cursor: pointer;
-
     margin-bottom: 2.5rem;
+    transition: all .2s ease-in-out;
+}
+
+.grid-img button:hover {
+    filter: brightness(1.6);
 }
 
 footer {
@@ -375,6 +376,11 @@ footer {
     color: #fff;
     border-radius: .3rem;
     box-shadow: 0 0.1rem 0.6rem #00000009;
+    transition: all .2s ease-in-out;
+}
+
+#link-topo:hover {
+    filter: brightness(1.6);
 }
 
 @media only screen and (max-width: 1300px) {
