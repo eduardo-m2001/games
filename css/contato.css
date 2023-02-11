@@ -184,12 +184,18 @@ header {
     background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  
     background: linear-gradient(to right, #4A00E0, #8E2DE2);
     padding: 0.7rem;
-    width: 40%;
+    width: 30%;
     border-radius: 20px;
     border: none;
     cursor: pointer;
     animation: moveBanner 1s 0.9s forwards;
     opacity: 0;
+    transition: all .3s ease-in-out;
+}
+
+.banner input[type=submit]:hover {
+    filter: brightness(1.4);
+
 }
 
 @keyframes moveBanner {
