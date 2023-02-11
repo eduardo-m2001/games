@@ -288,7 +288,6 @@ section {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 3rem 15rem;
-
     
 }
 
@@ -296,7 +295,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;  
     
 }
 
