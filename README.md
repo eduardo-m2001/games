@@ -1,6 +1,6 @@
 # Games Indicator
 
-O Games Indicator é uma criação 100% original, criada com intenção de por em prática todo conhecimento sobre [ HTML, CSS e Javascript ] adiquirido ao longo do curso 'Explorer' da Rocketseat.
+O Games Indicator é uma criação 100% autoral, criada com intenção de por em prática todo conhecimento sobre [ HTML, CSS e Javascript ] adiquirido ao longo do curso 'Explorer' da Rocketseat.
 
 
 ## Aprendizados
