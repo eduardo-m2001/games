@@ -4,7 +4,7 @@ O Games Indicator é uma criação 100% autoral, criada com intenção de por em
 
 
 ## Aprendizados
-Na criação desse projeto pude ver como linguagens simples [ HTML, CSS e JS ] são capases de criar algo tão incrível, e para isso, basta usar a criatividade.. A todo momento eu pensava "O que mais posso fazer para deixar esse site ainda melhor?", e assim fui adicionando várias funcionalidades e aprendendo muito com esse projeto.
+Na criação desse projeto pude ver como o simples [ HTML, CSS e JS ] é capas de criar algo tão incrível, e para isso, basta usar a criatividade.. A todo momento eu pensava "O que mais posso fazer para deixar esse site ainda melhor?", e assim fui adicionando várias funcionalidades e aprendendo muito com esse projeto.
 ## 🚀 Sobre mim
 Atualmente estou fazendo o curso Explorer da RocketSeat para ampliar meus conhecimentos e me tornar um programador FullStack.
 
